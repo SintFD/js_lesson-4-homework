@@ -148,3 +148,18 @@ document.getElementById("task_5").addEventListener("click", function () {
 // и знак, решить пример, вывести результат и спросить, хо-
 // чет ли он решить еще один пример. И так до тех пор, пока
 // пользователь не откажется.
+
+function numbCalc() {
+  const numb = prompt("Введите число");
+  let numbLength = 0;
+
+  for (let i = 0; i <= numb.length; i++) {
+    numbLength = i;
+  }
+
+  alert(numbLength);
+}
+
+document.getElementById("task_6").addEventListener("click", function () {
+  numbCalc();
+});
